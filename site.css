@@ -1,0 +1,70 @@
+/* Global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0d6efd;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.navbar-brand:hover {
+  color: #dcdcdc;
+}
+
+/* Product Card */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+.product-card img {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+.product-card .card-body {
+  padding: 1rem;
+}
+.product-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.product-card .card-text {
+  font-size: 0.9rem;
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-card .price {
+  color: #198754;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.product-card .btn-cart {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
