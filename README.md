@@ -1,2 +1,21 @@
-# shopping_website
-A modern, responsive e-commerce web application built with Node.js, Express, MongoDB, and EJS templates. This project simulates a small online store where users can browse products, view details, add items to a cart, and place orders. An admin panel allows for adding, managing, and deleting products.
+# Shravii's Shopping Website
+
+A professional e-commerce store built with:
+- Node.js
+- Express
+- MongoDB
+- EJS Templates
+- Bootstrap 5
+
+Features:
+- Product listing
+- Product details
+- Add to Cart
+- Checkout
+- Admin Panel to add/manage products
+
+## How to run locally
+1. Clone the repo: `git clone <repo-url>`
+2. Install dependencies: `npm install`
+3. Run the server: `node server.js`
+4. Open `http://localhost:3000` in your browser
